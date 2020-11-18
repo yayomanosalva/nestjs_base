@@ -1,0 +1,15 @@
+//////////////////////////// ANGULAR //////////////////////////// 
+ng g c components/Heroes
+ng g s services/Heroes
+//////////////////////////// NESTJS //////////////////////////// 
+nest generate module factura
+nest generate controller controller/factura
+nest generate service services/factura
+////////////////////////////  ORM  ////////////////////////////
+npm i dotenv
+npm i @types/dotenv
+npm i pg 
+npm i @nestjs/typeorm typeorm
+npm run start
+//////////////////////////// MYSQL //////////////////////////// 
+npm install --save @nestjs/typeorm typeorm mysql
